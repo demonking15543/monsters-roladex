@@ -1,0 +1,29 @@
+{
+  "contacts": [
+    {
+      "id": "3897b8b5-b130-4876-88ea-846abfac66d9",
+      "name": "127.0.0.1:8000",
+      "email": "vijay@gmail.com"
+    },
+    {
+      "id": "611b5e9d-c6db-42d5-ac1f-daae16eceb30",
+      "name": "Royal Enfield",
+      "email": "vijay777014gmail.com"
+    },
+    {
+      "id": "d86ee571-0bba-4b34-8cac-35f4236ff746",
+      "name": "Batteries",
+      "email": "vijay777015@gmail.com"
+    },
+    {
+      "id": "8bf9e3ca-5833-4536-b42d-aca02ea5c3ee",
+      "name": "Yamaha",
+      "email": "vijay777015@gmail.com"
+    },
+    {
+      "id": "a19a7aa5-f226-42a8-beee-27e3f336b94e",
+      "name": "jfjrjrr",
+      "email": "ogseuweu3rueur"
+    }
+  ]
+}
