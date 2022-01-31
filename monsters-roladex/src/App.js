@@ -18,17 +18,22 @@ export default class App extends Component {
     .then(response =>response.json())
     .then(users => this.setState({monsters:users}))
   }
+  handleChange = (e) =>{
+    this.setState({searchFeild:e.target.value})
+  }
+
     
   render() {
     const { monsters, searchFeild } = this.state;
     const fiterMonsters = monsters.filter(monster => 
       monster.name.toLowerCase().includes(searchFeild.toLowerCase())
     )
-    return (
+        return (
     <div className='App'>
+      <h1>Monster Roladex</h1>
       <SearchBox 
       placeholder="search Box" 
-      handleChange={e=>this.setState({searchFeild:e.target.value})} />
+      handleChange={this.handleChange} />
       <CardList monsters={fiterMonsters} />
       
 
