@@ -30,7 +30,7 @@ export default class App extends Component {
     )
         return (
     <div className='App'>
-      <h1>Monster Roladex</h1>
+      <h1>Monsters Roladex</h1>
       <SearchBox 
       placeholder="search Box" 
       handleChange={this.handleChange} />
